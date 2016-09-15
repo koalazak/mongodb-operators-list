@@ -1,2 +1,222 @@
 # mongodb-operators-list
 Mongodb Operators List in plain text and Javascript array
+
+Plain:
+```text
+$
+$add
+$addToSet
+$all
+$allElementsTrue
+$and
+$anyElementTrue
+$avg
+$bit
+$cmp
+$comment
+$concat
+$cond
+$currentDate
+$dateToString
+$dayOfMonth
+$dayOfWeek
+$dayOfYear
+$divide
+$each
+$elemMatch
+$eq
+$exists
+$explain
+$first
+$geoIntersects
+$geoNear
+$geoWithin
+$group
+$gt
+$gte
+$hint
+$hour
+$ifNull
+$in
+$inc
+$isolated
+$last
+$let
+$limit
+$literal
+$lt
+$lte
+$map
+$match
+$max
+$maxScan
+$maxTimeMS
+$meta
+$millisecond
+$min
+$minute
+$mod
+$month
+$mul
+$multiply
+$natural
+$ne
+$nearSphere
+$neart
+$nin
+$nor
+$not
+$or
+$orderby
+$out
+$pop
+$position
+$project
+$pull
+$pullAll
+$push
+$pushAll
+$query
+$redact
+$regex
+$rename
+$returnKey
+$second
+$set
+$setDifference
+$setEquals
+$setIntersection
+$setIsSubset
+$setOnInsert
+$setUnion
+$showDiskLoc
+$size
+$skip
+$slice
+$snapshot
+$sort
+$strcasecmp
+$substr
+$subtract
+$sum
+$text
+$toLower
+$toUpper
+$type
+$unset
+$unwind
+$week
+$where
+$year
+```
+
+Javascript Array:
+```javascript
+[
+  '$',
+  '$add',
+  '$addToSet',
+  '$all',
+  '$allElementsTrue',
+  '$and',
+  '$anyElementTrue',
+  '$avg',
+  '$bit',
+  '$cmp',
+  '$comment',
+  '$concat',
+  '$cond',
+  '$currentDate',
+  '$dateToString',
+  '$dayOfMonth',
+  '$dayOfWeek',
+  '$dayOfYear',
+  '$divide',
+  '$each',
+  '$elemMatch',
+  '$eq',
+  '$exists',
+  '$explain',
+  '$first',
+  '$geoIntersects',
+  '$geoNear',
+  '$geoWithin',
+  '$group',
+  '$gt',
+  '$gte',
+  '$hint',
+  '$hour',
+  '$ifNull',
+  '$in',
+  '$inc',
+  '$isolated',
+  '$last',
+  '$let',
+  '$limit',
+  '$literal',
+  '$lt',
+  '$lte',
+  '$map',
+  '$match',
+  '$max',
+  '$maxScan',
+  '$maxTimeMS',
+  '$meta',
+  '$millisecond',
+  '$min',
+  '$minute',
+  '$mod',
+  '$month',
+  '$mul',
+  '$multiply',
+  '$natural',
+  '$ne',
+  '$nearSphere',
+  '$neart',
+  '$nin',
+  '$nor',
+  '$not',
+  '$or',
+  '$orderby',
+  '$out',
+  '$pop',
+  '$position',
+  '$project',
+  '$pull',
+  '$pullAll',
+  '$push',
+  '$pushAll',
+  '$query',
+  '$redact',
+  '$regex',
+  '$rename',
+  '$returnKey',
+  '$second',
+  '$set',
+  '$setDifference',
+  '$setEquals',
+  '$setIntersection',
+  '$setIsSubset',
+  '$setOnInsert',
+  '$setUnion',
+  '$showDiskLoc',
+  '$size',
+  '$skip',
+  '$slice',
+  '$snapshot',
+  '$sort',
+  '$strcasecmp',
+  '$substr',
+  '$subtract',
+  '$sum',
+  '$text',
+  '$toLower',
+  '$toUpper',
+  '$type',
+  '$unset',
+  '$unwind',
+  '$week',
+  '$where',
+  '$year'
+]
+```
