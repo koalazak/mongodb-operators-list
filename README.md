@@ -12,11 +12,16 @@ $and
 $anyElementTrue
 $avg
 $bit
+$bucket
 $cmp
 $comment
 $concat
 $cond
+$convert
 $currentDate
+$currentOp
+$dateFromParts
+$dateFromString
 $dateToString
 $dayOfMonth
 $dayOfWeek
@@ -46,6 +51,7 @@ $limit
 $literal
 $lt
 $lte
+$ltrim
 $map
 $match
 $max
@@ -81,6 +87,7 @@ $redact
 $regex
 $rename
 $returnKey
+$rtrim
 $second
 $set
 $setDifference
@@ -100,8 +107,17 @@ $substr
 $subtract
 $sum
 $text
+$toBool
+$toDate
+$toDecimal
+$toDouble
+$toInt
+$toLong
 $toLower
+$toObjectId
+$toString
 $toUpper
+$trim
 $type
 $unset
 $unwind
@@ -122,11 +138,16 @@ Javascript Array:
   '$anyElementTrue',
   '$avg',
   '$bit',
+  '$bucket',
   '$cmp',
   '$comment',
   '$concat',
   '$cond',
+  '$convert',
   '$currentDate',
+  '$currentOp',
+  '$dateFromParts',
+  '$dateFromString',
   '$dateToString',
   '$dayOfMonth',
   '$dayOfWeek',
@@ -156,6 +177,7 @@ Javascript Array:
   '$literal',
   '$lt',
   '$lte',
+  '$ltrim',
   '$map',
   '$match',
   '$max',
@@ -191,6 +213,7 @@ Javascript Array:
   '$regex',
   '$rename',
   '$returnKey',
+  '$rtrim',
   '$second',
   '$set',
   '$setDifference',
@@ -210,8 +233,17 @@ Javascript Array:
   '$subtract',
   '$sum',
   '$text',
+  '$toBool',
+  '$toDate',
+  '$toDecimal',
+  '$toDouble',
+  '$toInt',
+  '$toLong',
   '$toLower',
+  '$toObjectId',
+  '$toString',
   '$toUpper',
+  '$trim',
   '$type',
   '$unset',
   '$unwind',
